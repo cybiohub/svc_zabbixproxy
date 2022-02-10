@@ -1,9 +1,8 @@
 | ![alt text][logo] | Integration & Securite Systeme |
 | ------------- |:-------------:|
 
-# svc_zabbixproxy
 # Cybionet - Ugly Codes Division
-  
+
 ## SUMMARY
 
 Easy installation script of Zabbix Proxy service with SQLite3.
@@ -17,7 +16,7 @@ Works on Ubuntu, Debian and Rasbpian.
 
 ## REQUIRED
 
-The "vx_zbxproxy.sh" application does not require any additional packages to work.
+The `vx_zbxproxy.sh` application does not require any additional packages to work.
 
 
 ## INSTALLATION
@@ -38,9 +37,9 @@ The "vx_zbxproxy.sh" application does not require any additional packages to wor
 
 	- Choose between Zabbix repository version or distribution version. By default, this is the Zabbix repository version.
 	- The version of Zabbix Proxy you want to install.
-	- Directory location for additional scripts. By default in "/opt/zabbix".
+	- Directory location for additional scripts. By default in `/opt/zabbix`.
 
-4. Once completed, set the "Configured" parameter to "true".
+4. Once completed, set the `Configured` parameter to `true`.
 
 5. Adjust permissions.
 	```bash
@@ -59,8 +58,10 @@ The "vx_zbxproxy.sh" application does not require any additional packages to wor
 	```
 	# TLS PSK Identity for your Zabbix Proxy.
 	TLSPSKIdentity=YOURZABBIXPROXY
+	
 	# IP address of the Zabbix server.
 	Server=W.X.Y.Z
+	
 	# Name identifying the Zabbix Proxy to the Zabbix server.
 	Hostname=YOURZABBIXPROXY
 	```
